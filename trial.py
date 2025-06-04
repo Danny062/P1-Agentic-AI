@@ -201,5 +201,3 @@ response = xai_client.chat.completions.create(
         )
 
 print(response.choices[0].message.content)'''
-
-# echo grok_API_KEY="xai-TtuIxLVodOiUjhN9cBfp7XrIhlQiIS8WACyOosOenx1OWBoTiLQzimFIvRrPYIwx1jJk3Nz6tmLwBPTq" > .env
